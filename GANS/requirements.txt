@@ -1,0 +1,16 @@
+tensorflow>=2.15.0      # Deep learning framework for building and training GANs, with Keras for model definition
+torch>=2.0.0            # Deep learning framework for flexible GAN implementation, popular for research
+torchvision>=0.15.0     # Provides datasets, data loaders, and image transformations for vision-based GANs
+numpy>=1.24.0           # Scientific computing library for numerical operations and noise generation
+pandas>=2.0.0           # Data manipulation for handling dataset metadata or labels in conditional GANs
+pillow>=9.0.0           # Image processing for loading, manipulating, and saving images
+opencv-python>=4.7.0    # Advanced image processing and computer vision for preprocessing and post-processing
+matplotlib>=3.7.0       # Visualization library for plotting generated images and training metrics
+seaborn>=0.12.0         # Statistical visualization for enhanced plotting of loss curves or data distributions
+scikit-image>=0.20.0    # Image processing for evaluation metrics like SSIM or PSNR
+scikit-learn>=1.2.0     # Machine learning utilities for metrics like FID or data preprocessing
+pytorch-lightning>=2.0.0 # Simplifies PyTorch training loops and supports scalable GAN training
+tqdm>=4.65.0            # Progress bar for monitoring training loops
+h5py>=3.8.0             # File handling for saving and loading model weights or generated data
+wandb>=0.15.0           # Logging and visualization for tracking training metrics and generated samples
+tensorflow-hub>=0.14.0  # Access to pre-trained models (e.g., InceptionV3) for evaluation metrics like FID
